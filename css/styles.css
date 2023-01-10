@@ -1,0 +1,153 @@
+/* Integração inicial */
+h1{
+    color: red;
+}
+/* Comentarios com css */
+
+/* Id */
+h3{
+    color:green;
+}
+
+#title{
+    color:blue;
+}
+
+/* Classes */
+
+.text{
+    color:violet;
+}
+
+/* Background */
+
+.background{
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+
+}
+
+/* Dois elementos, uma regra*/
+p, .title-small{
+    color: darkmagenta;
+}
+
+.title-small{
+    font-size: 15px;
+}
+
+/* Background image */
+
+ .background-image{
+    background-image: url("../img/fsociety.png");
+    padding: 20px; 
+    color: white;
+}
+
+/* Altura e largura */
+#width-height{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+/* Padding */
+#padding {
+    background-color: magenta;
+    padding: 20px;
+}
+/* Margin */
+#margin {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+/* Border */
+#border{
+border: 3px solid red;
+width: 100px;
+height: 100px;
+padding: 40px;
+margin: 30px;
+background-color: blue;
+}
+/* Border Radius */
+#border-radius{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px dashed blue;
+    border-radius: 10px;
+} 
+/* Cores */
+#hex, #rgb ,#hsl{
+    width: 50px;
+    height: 50px;
+    margin: 10px;   
+}
+#hex{
+    background-color: #09afd2;
+}
+#rgb{
+    background-color: rgb(222, 14, 163);
+}
+#hsl{
+    background-color: hsl(100,20%, 80%);
+}
+/* Alinhamento */
+#center{
+    text-align: center;
+}
+p{
+    font-size: 35px;
+}
+/* Decoration */
+#underline{
+    text-decoration: underline;
+}
+#line{
+    text-decoration: line-through;
+}
+#without-underline{
+    text-decoration: none;
+}
+/* Font size */
+#smaller-font{
+    font-size: 10px;
+}
+
+/* Transform */
+#upper{
+    text-transform: uppercase;
+}
+#lower{
+    text-transform: lowercase;
+}
+
+/* Font family */
+#serif{
+    font-family: Georgia;
+}
+#sans-serif{
+    font-family: Helvetica;
+}
+#cursive{
+    font-family: cursive;
+}
+/* Display */
+#inline{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+#block{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 5px;
+    display: block;
+}
